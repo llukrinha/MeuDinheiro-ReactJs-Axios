@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import Rest from './rest'
+import Rest from '../../utils/rest'
 
 
 const baseURL = 'https://meudinheiro-hotmart-default-rtdb.firebaseio.com/'

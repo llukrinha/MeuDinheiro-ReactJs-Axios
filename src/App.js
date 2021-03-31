@@ -1,22 +1,9 @@
 import React from 'react'
 import {BrowserRouter as Router, Route} from 'react-router-dom'
-import Header from "./elements/Header";
-import Meses from "./Meses";
-import AdicionarMes from "./AdicionarMes";
+import Header from './elements/Header'
+import Movimentacoes from "./pages/Movimentacoes";
+import Home from "./pages/Home";
 
-
-const Home = () => {
-    return (
-        <div className='container'>
-            <AdicionarMes/>
-            <Meses/>
-        </div>
-    )
-}
-const Movimentacoes=()=>{
-    return <h1> Movimentações</h1>
-
-}
 function App() {
     return (
         <Router>

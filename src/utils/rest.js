@@ -23,6 +23,7 @@ const reducer = (state, action) => {
 }
 
 const init = baseURL => {
+
     const useGet = resource => {
         let data, dispatch;
         [data, dispatch] = useReducer(reducer, INITIAL_STATE);
